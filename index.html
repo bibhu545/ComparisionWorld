@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CompareWorld - A complete solution to tech comparison</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="static/css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Acme|Permanent+Marker|Righteous" rel="stylesheet">
+	<link href="static/css/aos.css" rel="stylesheet">
+	<style>
+		section{
+			min-height: 500px;
+		}
+		#spec{
+			padding-top: 4%;
+			padding-bottom: 7%;
+		}
+		.navbar-fixed-top{
+			/*background-color: rgba(0, 0, 0, 0.5);
+			height: 5%;*/
+		}
+		.desc{
+			text-align: left;
+			font-size: 15px;
+		}
+		.name{
+			text-align: center;
+			font-size: 20px;
+		}
+		.sec_desc{
+			font-size: 17.5px;
+		}
+		#design{
+			background-image: url('static/img/design.jpg');
+			background-attachment: fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		#performance{
+			background-image: url('static/img/perf.jpg');
+			background-attachment: fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.sec_cover{
+			background-color: rgba(0, 0, 0, 0.85);
+			min-height: 500px;
+			padding: 5%;
+			padding-right: 15%;
+			color: white;
+		}
+		.main_sec_cover{
+			background-color: rgba(0, 0, 0, 0.75);
+			min-height: 500px;
+			padding-top: 15%;
+			padding-bottom: 12%;
+			color: white;
+		}
+		.foot_sec_cover{
+			background-color: rgba(0, 0, 0, 0.85);
+			padding: 2%;
+			color: white;
+		}
+		footer{
+			background-image: url('static/img/perf.jpg');
+			background-attachment: fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+			padding: 0px;
+			margin: 0px;
+		}
+		.navbar-brand{
+			font-family: 'Permanent Marker', cursive;
+		}
+		.main_tag{
+			font-size: 50px;
+			
+		}
+
+		.per{
+			padding-right: 4%;
+			padding-left: 4%;
+		}
+		section{
+			background: linear-gradient(-45deg,lightblue,white,white,#ffe187);
+		}
+		.product{
+			color: blue;
+		}
+		hr{
+			background-color:#a7a7a7;
+			height: 0.8px;
+		}
+		body{
+			font-family: 'Acme', sans-serif;
+		}
+		.find{
+			border-radius: 15px;
+			border:1px solid white;
+		}
+		.find:hover{
+			border-radius: 20px;
+			transform: scale(1.2);
+			transition: 0.5s;
+		}
+		.zoom:hover{
+			transform: scale(1.15);
+			transition: 0.5s;	
+		}
+		.zoom{
+			
+			border-radius: 7px;
+		}
+		.zoom2:hover{
+			transform: scale(1.8);
+			transition: 0.5s;	
+		}
+		.price{
+			border-radius: 15px;
+			padding: 2.5%;
+			padding-right: 8%;
+			padding-left: 8%;
+		}
+		.price:hover{
+			border-radius: 20px;
+			transform: scale(1.2);
+			transition: 0.5s;
+		}
+		#camera{
+			height: auto;
+			padding-bottom: 7%;
+		}
+	</style>
+</head>
+
+<body id="top">
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>                        
+			</button>
+			<a class="navbar-brand" href="#top">
+				<span style="color:red">C</span>ompare<span style="color:red">W</span>orld</a>
+			<ul class="nav navbar-nav">
+					<li><a href="#spec">All &nbsp; Specifications</a></li>
+				</ul>
+		  </div>
+		  <div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#design">Design</a></li>
+				<li><a href="#camera">Camera</a></li>
+				<li><a href="#performance">Performance</a></li>
+				<li><a href="#conclusion">Conclusion</a></li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+
+
+    <!-- Header -->
+    <div id="top" class="top_header">
+		<div class="main_sec_cover">
+        <div class="container">
+			<center>
+            <h2 class="main_tag" data-aos="zoom-in" data-aos-duration="1200">Samsung Galaxy Note 9 vs iPhone XS Max</h2>
+            <h3 data-aos="zoom-in" data-aos-duration="1600">Which is worth your $1,000?</h3>
+            <br><br><br>
+			<a href="#spec" class="btn btn-dark btn-lg find" data-aos="zoom-in" data-aos-duration="1800">Let's Find Out &nbsp; <i class="fa fa-angle-double-down"></i></a>
+			</center>
+		</div>
+		</div>
+    </div>
+
+	<section id="spec">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-10">
+					<p class="sec_desc" style="text-align:justify;" data-aos="zoom-out-up" data-aos-duration="1200">
+					Samsung and Apple are longtime rivals in the mobile industry. Every year it’s always exciting to see how their smartphones stack up against one another. <span class="product">The Galaxy Note 9</span> and <span class="product">iPhone XS Max </span> are two of the biggest, most powerful, and most expensive mainstream smartphones we’ve ever seen.</p>
+					<br>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3">
+				</div>
+				<div class="col-lg-4">
+					
+					<center>
+						<span class="name">Samsung Galaxy Note 9</span><br><br>
+						<img class="zoom" src="static/img/note.jpg" alt="Galaxy note 9"  height="300px" width="260px">
+						<br><br>
+						
+					</center>
+					<br>
+				</div>
+				<div class="col-lg-4">
+					
+					<center>
+						<span class="name">iPhone XS Max</span><br><br>
+						<img class="zoom" src="static/img/xs.png" alt="XS Max"  height="300px" width="170px">
+						
+					</center>
+					<br>
+
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<br>
+			<div class="row">
+				<center>
+					<div class="col-lg-3"></div>
+					<div class="col-lg-4"><a href="https://www.amazon.com/dp/B07FZH9BGV?tag=androidcentralb-20&ascsubtag=UUacUdUnU69797YYwYg" target="_blank" class="btn btn-primary zoom price">$980 at Amazon</a></div>
+					<div class="col-lg-4"><a href="https://www.apple.com/shop/buy-iphone/iphone-xs?afid=p231%7Ccamref%3A1100lcZ8&cid=AOS-US-AFF-PHG#mn_p" target="_blank" class="btn btn-primary zoom price">$1199 at Apple</a></div>
+					<div class="col-lg-1"></div>
+				</center>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">Description</p>
+				</div>	
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+						<p class="sec_desc">Right now, the Galaxy Note 9 is probably the best Android phone in the world. It's got everything you need to get work done, play games for hours, and do a bit of creative writing or drawing with the S Pen. The camera is awesome, battery life is insanely good, and there's a headphone jack.</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+						<p class="sec_desc">The iPhone XS Max has the biggest screen on an iPhone yet, and while that may please people looking for a big iPhone, iOS 12 doesn't take advantage of that extra real estate.</p>
+				</div>	
+				<div class="col-lg-1"></div>		
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc" data-aos-duration="1200">Display</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">
+					6.4-inch Super AMOLED
+					2,960 x 1,440 resolution (Quad HD+)
+					516ppi
+					18.5:9 screen ratio</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">6.5-inch OLED
+					2,688 x 1,242
+					120Hz</p>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc" data-aos-duration="1200">Processor</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">Global: 10nm, 64-bit, octa-core Samsung Exynos 9810 (2.8 GHz quad + 1.7 GHz quad)
+					U.S.: 10nm, 64-bit, octa-core Qualcomm Snapdragon 845</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">Apple A12
+					7nm construction</p>
+
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">RAM</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">6 or 8GB RAM
+					LPDDR4</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">TBD</p>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">Storage</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">128 or 512GB
+					microSD expansion up to 512GB</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">64GB, 256GB, 512GB</p>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">Camera</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">
+							Rear: Dual camera with dual OIS
+							Wide-angle: Super Speed Dual Pixel 12MP AF sensor with OIS, f/1.5 and f/2.4 apertures
+							Telephoto: 12MP AF sensor, f/2.4 aperture, 2x zoom
+							
+							Front: 8MP AF sensor, f/1.7 aperture
+					</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">
+							Rear:
+							Dual 12MP sensors
+							
+							Front:
+							Single 7MP sensor
+					</p>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">Construction</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">Aluminum and glass</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">Stainless steel and glass</p>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">Battery</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">
+							4,000mAh battery
+							Non-removable
+							Fast wired charging compatible with QC 2.0
+							Fast wireless charging compatible with WPC and PMA
+					</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">TBD</p>	
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+					<P class="sec_desc">Colors</P>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">Lavender purple, Ocean blue, Midnight Black, Metallic Copper</p>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200">
+					<p class="sec_desc">Space Grey, Silver, Gold</p>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="design">
+		<div class="sec_cover">
+			<div class="container">
+			<div class="row"></div>
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+				
+					<center>
+						<h2 data-aos="fade-down" data-aos-duration="1200">Design</h2>
+						<br>
+						<p class="sec_desc" data-aos="fade-left" data-aos-duration="1200">When it comes to design, Samsung and Apple are at the top of the class. The Note 9 and iPhone XS Max offer attractive designs with superb build quality. Both use a glass sandwich design held together by a metal frame, which is a fairly common design formula in today’s smartphone world. The metal used on the iPhone XS Max, however, is stainless steel whereas the Note 9 uses the more typical aluminum. Both feel equally as durable.
+						</p>
+						<br>
+						<p class="sec_desc" data-aos="fade-right" data-aos-duration="1200">
+						Although the Note 9 and XS Max use similar materials, they feel very different. The Note 9 is more boxy and rectangular and features chamfered edges, making for a much more industrial look. The iPhone XS Max goes for a sleeker appearance with rounded corners and curved edges all around. Because of this, the iPhone XS Max feels more comfortable. The Note 9 is slightly bigger than the XS Max, but this difference is negligible — neither device is great for one-handed use.
+						</p>
+					</center>
+				</div>
+				<div class="col-lg-2"></div>
+			</div>
+		</div>
+	</section>
+	<section id="camera">
+			<div class="">
+					<div class="container">
+					<div class="row">
+					<br><br>
+						<center>
+						<h3>Camera Samples</h3><p class="sec_desc"></p>
+						<br>
+						<h4>Galaxy Note 9</h4><br>
+						</center>
+						<div class="col-lg-12">
+							<center>
+							<img src="static/img/1.jpg" class="zoom2" height="235" width="235"> 
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="static/img/2.jpg" class="zoom2" height="235" width="235"> 
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="static/img/3.jpg" class="zoom2" height="235" width="235"> 
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<img src="static/img/4.jpg" class="zoom2" height="235" width="235"> 
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							</center>
+						</div>
+					</div>
+					<div class="row">
+							<br><br>
+								<center>
+								<h4>iPhone XS Max</h4><br>
+								</center>
+								<div class="col-lg-12">
+									<center>
+									<img src="static/img/5.jpg" class="zoom2" height="235" width="235"> 
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<img src="static/img/6.jpg" class="zoom2" height="235" width="235"> 
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<img src="static/img/7.jpg" class="zoom2" height="235" width="235"> 
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<img src="static/img/8.jpg" class="zoom2" height="235" width="235"> 
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									</center>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	</section>
+	<section id="performance">
+			<div class="sec_cover">
+					<div class="container">
+					<div class="row"></div>
+						<center><h2 data-aos="fade-down" data-aos-duration="1200">Performance</h2><br>
+							<h4 data-aos="fade-down" data-aos-duration="1200">
+								Although the Note 9 keeps up with the XS Max extremely well, Apple’s touch response is still second to none.
+							</h4>
+							<br>
+						</center>
+						<div class="col-lg-6 per" data-aos="fade-right" data-aos-duration="1200">
+								<center><p class="sec_desc" style="text-align:justify">The Note 9 and iPhone XS Max are the best smartphones each respective company has to offer, which means they are no performance slouches. The Galaxy Note 9 features Qualcomm’s powerful Snapdragon 845 with 6 or 8 gigabytes of RAM depending on the storage configuration you choose. The iPhone XS Max features Apple’s proprietary A12 Bionic chipset, its most powerful chipset to date.</p></center>
+						</div>
+						<div class="col-lg-6 per" ></div>
+							<center>
+								<p class="sec_desc" style="text-align:justify" data-aos="fade-left" data-aos-duration="1200">
+									In daily use, both devices are extremely fast and fluid. They never showed any signs of slowing down regardless of what I threw at them. Launching applications, multitasking, browsing the web, and gaming are fantastic. Although the Note 9 keeps up with the XS Max extremely well, I have to admit Apple’s touch response is still second to none. Swiping, scrolling, tapping, and pinching to zoom feels much smoother and more instantaneous than any Android phone I’ve tried.
+								</p>
+							</center>
+						</div>
+					</div>
+				</div>
+	</section>
+	<section id="conclusion">
+			<div class="">
+					<div class="container">
+					<div class="row"></div>
+						<div class="col-lg-2"></div>
+						<div class="col-lg-8" data-aos="zoom-out-up" data-aos-duration="1200">
+						
+							<center>
+								<br>
+								<br>
+								<br>
+								<h2>Conclusion</h2>
+								<p class="sec_desc">Most people will say an Android versus Apple comparison boils down to personal preference, with most people knowing long ago which they prefer. While that is mostly true, it also depends on what features you value most. If a headphone jack, fingerprint sensor, expandable storage, and the S-Pen are important to you, the Note 9 is clearly the better choice. The iPhone lacks these features, but it hasn’t bothered me when using it as a daily driver as I consider none of them dealbreakers. I also prefer the more comfortable rounded design of the XS Max, the better camera performance, quicker updates and the fluidity of iOS 12 even if it isn’t as feature-rich as Android.</p>
+								<br>
+								<p class="sec_desc">
+								In this particular comparison, I preferred the iPhone XS Max overall. Not because it’s objectively better but because it more fully satisfies what I look for in a phone. Which one would you choose?
+								</p>
+								
+							</center>
+						</div>
+						<div class="col-lg-2"></div>
+					</div>
+				</div>
+	</section>
+
+    <!-- Callout -->
+    <!-- <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Vertically Centered Text</h1>
+        </div>
+    </aside> -->
+
+    <!-- Footer -->
+    <footer>
+		<div class="foot_sec_cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6  text-center">
+                    <h4 style="font-family: 'Monoton', cursive;"><strong>CompareWorld.com</strong>
+                    </h4>
+                    <p>3481 Melrose Place
+                        <br>Beverly Hills, CA 90210</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        </li>
+                    </ul>
+					<br>
+                </div>
+				<div class="col-lg-6  text-center">
+					<br>
+                    <ul class="list-inline">
+                        <li >
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li >
+                            <a href="#"><i class="fa fa-youtube fa-fw fa-3x"></i></a>
+                        </li>
+                        <li >
+                            <a href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; CompareWorld 2019</p>
+                </div>
+            </div>
+        </div>
+		<a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+		</div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="static/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/aos.js"></script>
+	<script>
+			AOS.init();
+	</script>
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+
+    </script>
+
+</body>
+
+</html>

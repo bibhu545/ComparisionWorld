@@ -1,0 +1,1 @@
+Please extract the zip file and ditectly run index.html file by double clicking it.
